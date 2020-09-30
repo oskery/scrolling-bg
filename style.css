@@ -1,7 +1,12 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   overflow-x: hidden;
-  height: 300vh;
+  color: white;
+  text-align: center;
 }
 
 #bg {
@@ -9,7 +14,18 @@ body {
   left: 0;
   top: 0;
   bottom: 0;
-  width: 2489px;
+  width: 4489px;
   background: url(./bg.jpg);
-  background-size: cover;
+  background-size: auto 100%;
+  background-repeat: repeat-x;
+  background-position: 0 0;
+  z-index: -1;
+}
+
+main {
+  margin: 10vh auto;
+  width: 500px;
+  max-width: 100%;
+  flex-direction: column;
+  height: 300vh;
 }
