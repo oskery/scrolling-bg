@@ -1,7 +1,7 @@
-## Scrolling bg
+# Scrolling bg
 CSS and JS for horizontally scrolling image on mousewheel
 
-# Smoother transition
+## Smoother transition
 Add transition attribute to the #bg style to create a smoother transition, e.g:
 ```css
 #bg {
